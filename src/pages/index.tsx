@@ -8,13 +8,16 @@ import {
     Provider,
     Code,
     FeatureList,
-    Head, SubHead
+    Head, 
+    SubHead,
+    NavBar,
+    Footer
 } from 'react-landing-page-components'
 import React from 'react'
 import { render } from 'react-dom'
 import { H1, Image, Text, Box } from 'hybrid-components'
 import { Archive, Airplay, Aperture } from 'styled-icons/feather'
-import mongokeLogo from './mongoke.svg'
+
 
 const codeStr = `
 cosa:
@@ -31,20 +34,38 @@ cosa:
 
 const App = () => {
     return (
-        <Provider color='rgb(15,52,74)' bg='#eee' gradients={['#ffeae8', '#f1efff',]}>
+        <Provider
+            color='rgb(15,52,74)'
+            bg='#eee'
+            gradients={['#ffeae8', '#f1efff']}
+        >
+            <NavBar color='white'>
+                <a href='#'>Docs</a>
+                <a>Github</a>
+            </NavBar>
             <Hero>
-                <Logo width={['100%', null, '800px']} src={mongokeLogo} />
+                <Logo
+                    width={['100%', null, '800px']}
+                    src={require('./mongoke.svg')}
+                />
                 <Head fontSize='60px'>Mongoke</Head>
                 <SubHead>instant Graphql on MongoDb</SubHead>
                 <Button>Get Started</Button>
             </Hero>
             <Section>
                 <Head>Simple configuration</Head>
-                <Code width={['400px', '800px']} language='yaml' code={codeStr} />
+                <Code
+                    width={['400px', '800px']}
+                    language='yaml'
+                    code={codeStr}
+                />
             </Section>
             <Section>
                 <Head>Cose</Head>
-                <SubHead>The generated queries are super optimized. The generated queries are super optimized</SubHead>
+                <SubHead>
+                    The generated queries are super optimized. The generated
+                    queries are super optimized
+                </SubHead>
                 <FeatureList>
                     <FeatureList.Feature
                         icon={<Archive width='90px' />}
@@ -56,7 +77,6 @@ const App = () => {
                         title='Write your db schema'
                         description='prima cosa'
                     />
-                    
                 </FeatureList>
             </Section>
             <Section>
@@ -103,6 +123,22 @@ const App = () => {
                     image={<Airplay />}
                 />
             </Section>
+            <Footer
+                columns={{
+                    Docs: (
+                        <>
+                            <a>Getting Started</a>
+                            <a>Flexing</a>
+                        </>
+                    ),
+                    Socials: (
+                        <>
+                            <a>Twitter</a>
+                            <a>Github</a>
+                        </>
+                    ),
+                }}
+            />
         </Provider>
     )
 }

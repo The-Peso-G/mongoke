@@ -1,6 +1,6 @@
 export default {
   menu: ['Home', 'Components'],
-  base: '/docs',
+  base: '/mongoke',
   // src: './docs'
   ignore: ['./pages']
 }

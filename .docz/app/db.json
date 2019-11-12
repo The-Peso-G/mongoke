@@ -11,7 +11,7 @@
     "native": false,
     "themeConfig": {},
     "separator": "-",
-    "base": "/docs",
+    "base": "/mongoke",
     "ignore": [
       "./pages"
     ]
@@ -234,17 +234,5 @@
       }
     }
   ],
-  "props": [
-    {
-      "key": "src/pages/index.jsx",
-      "value": [
-        {
-          "description": "",
-          "displayName": "App",
-          "methods": [],
-          "actualName": "App"
-        }
-      ]
-    }
-  ]
+  "props": []
 }
