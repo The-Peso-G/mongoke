@@ -11742,10 +11742,10 @@ react-is@^16.6.0, react-is@^16.7.0, react-is@^16.8.1:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.11.0.tgz#b85dfecd48ad1ce469ff558a882ca8e8313928fa"
   integrity sha512-gbBVYR2p8mnriqAwWx9LbuUrShnAuSCNnuPGyc7GJrMVQtPDAh8iLpv7FRuMPFb56KkaVZIYSz1PrjI9q0QPCw==
 
-react-landing-page-components@^0.0.6:
-  version "0.0.6"
-  resolved "https://registry.yarnpkg.com/react-landing-page-components/-/react-landing-page-components-0.0.6.tgz#ba1bc576a6a0e309556c901bf14067ffff399bcd"
-  integrity sha512-3TWr8OER9oDC03PxBSiMkxFbUrdHjUcdpcA6nqSTkWjYpbBPu+q4M2zlZzq1/lkfl59oUf4+3JmfUIzU3S6THQ==
+react-landing-page-components@^0.0.7:
+  version "0.0.7"
+  resolved "https://registry.yarnpkg.com/react-landing-page-components/-/react-landing-page-components-0.0.7.tgz#3cdadf22f45a53afac350d47a084aac6dd638700"
+  integrity sha512-EwR2PcksU07/mwebszsD5h/WXNviLoy7MnXQmQTzCthwo6eCxEQwCQLMiGVOjHGCTb9KtAUAtC1HbdLsLHGEAA==
   dependencies:
     "@types/react" latest
     "@types/react-dom" "^16.9.4"
