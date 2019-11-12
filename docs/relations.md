@@ -1,5 +1,6 @@
 ---
-id: relations
+route: /relations
+name: Relations
 ---
 
 # Relations

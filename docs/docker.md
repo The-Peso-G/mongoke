@@ -1,6 +1,6 @@
 ---
-id: docker
-title: Docker
+route: /docker
+name:  Docker
 ---
 
 ## Environment variables

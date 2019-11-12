@@ -1,6 +1,6 @@
 ---
-id: index
-title: Index
+route: /main
+name: Index
 ---
 
 # Mongoke documentation

@@ -18,7 +18,9 @@
   "scripts": {
     "dev": "gatsby develop",
     "build": "gatsby build",
-    "serve": "gatsby serve"
+    "serve": "gatsby serve",
+    "deploy": "npm run build && node ./scripts/deploy-github"
+
   },
   "dependencies": {
     "gatsby": "^2.13.73",
@@ -34,5 +36,9 @@
     "react-landing-page-components": "^0.0.2",
     "scheduler": "^0.15.0",
     "to-style": "^1.3.3"
+  },
+  "devDependencies": {
+    "@types/gh-pages": "^2.0.1",
+    "gh-pages": "^2.1.1"
   }
 }

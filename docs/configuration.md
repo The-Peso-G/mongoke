@@ -1,6 +1,6 @@
 ---
-id: configuration
-title: Configuration
+route: /configuration
+name: Configuration
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-id: queries
+route: /queries
 title: queries
 ---
 
