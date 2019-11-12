@@ -1,5 +1,5 @@
 ---
-route: /relations
+route: /docs/relations
 name: Relations
 ---
 

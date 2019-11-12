@@ -1,6 +1,6 @@
 ---
-route: /main
-name: Index
+route: /docs
+name: Quick Start
 ---
 
 # Mongoke documentation
@@ -11,7 +11,7 @@ Every type defined in the schema must be associated with a collection to be acce
 
 Types can also specify additional fields to connect to other entities via relations, this can be done in the `relations` part of the configuration.
 
-
+<!-- 
 - [Configuration](./configuration.md)
 - [Graphql Queries](./queries.md)
-- [Docker Usage and Env Vars](./docker.md)
+- [Docker Usage and Env Vars](./docker.md) -->

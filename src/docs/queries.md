@@ -1,5 +1,5 @@
 ---
-route: /queries
+route: /docs/queries
 title: queries
 ---
 

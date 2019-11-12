@@ -1,5 +1,5 @@
 ---
-route: /configuration
+route: /docs/configuration
 name: Configuration
 ---
 

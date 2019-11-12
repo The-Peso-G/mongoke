@@ -1,32 +1,26 @@
 {
   "config": {
-    "title": "Docz Example Gatsby",
+    "title": "Mongoke Docs",
     "description": "Example of how to integrate docz with gatsby as a theme",
-    "menu": [
-      "Home",
-      "Components"
-    ],
+    "menu": [],
     "version": "2.0.0-rc.41",
     "repository": "https://github.com/pedronauck/docz",
     "native": false,
     "themeConfig": {},
     "separator": "-",
-    "base": "/mongoke",
-    "ignore": [
-      "./pages"
-    ]
+    "base": "/mongoke/docs"
   },
   "entries": [
     {
-      "key": "docs/configuration.md",
+      "key": "src/docs/configuration.md",
       "value": {
-        "route": "/configuration",
+        "route": "/docs/configuration",
         "name": "Configuration",
-        "id": "76e731333fb756df3bff5ddb3b731c46",
-        "filepath": "docs/configuration.md",
-        "fullpath": "/Users/morse/Documents/GitHub/mongoke/docs/configuration.md",
-        "link": "https://github.com/pedronauck/docz/edit/master/docs/configuration.md",
-        "slug": "docs-configuration",
+        "id": "bf3f14b0cb8ab56248975663a535c2d0",
+        "filepath": "src/docs/configuration.md",
+        "fullpath": "/Users/morse/Documents/GitHub/mongoke/src/docs/configuration.md",
+        "link": "https://github.com/pedronauck/docz/edit/master/src/docs/configuration.md",
+        "slug": "src-docs-configuration",
         "menu": "",
         "headings": [
           {
@@ -138,15 +132,15 @@
       }
     },
     {
-      "key": "docs/docker.md",
+      "key": "src/docs/docker.md",
       "value": {
-        "route": "/docker",
+        "route": "/docs/docker",
         "name": "Docker",
-        "id": "dde96463ad5c157f426c31ea5b3bf8d8",
-        "filepath": "docs/docker.md",
-        "fullpath": "/Users/morse/Documents/GitHub/mongoke/docs/docker.md",
-        "link": "https://github.com/pedronauck/docz/edit/master/docs/docker.md",
-        "slug": "docs-docker",
+        "id": "64fda384cc54bc4be56851dfb399d409",
+        "filepath": "src/docs/docker.md",
+        "fullpath": "/Users/morse/Documents/GitHub/mongoke/src/docs/docker.md",
+        "link": "https://github.com/pedronauck/docz/edit/master/src/docs/docker.md",
+        "slug": "src-docs-docker",
         "menu": "",
         "headings": [
           {
@@ -173,15 +167,15 @@
       }
     },
     {
-      "key": "docs/main.md",
+      "key": "src/docs/main.md",
       "value": {
-        "route": "/main",
-        "name": "Index",
-        "id": "60982a1a9f172aea4fee233165827c31",
-        "filepath": "docs/main.md",
-        "fullpath": "/Users/morse/Documents/GitHub/mongoke/docs/main.md",
-        "link": "https://github.com/pedronauck/docz/edit/master/docs/main.md",
-        "slug": "docs-main",
+        "route": "/docs",
+        "name": "Quick Start",
+        "id": "86c126f81c494bef99e74aeb1bc18911",
+        "filepath": "src/docs/main.md",
+        "fullpath": "/Users/morse/Documents/GitHub/mongoke/src/docs/main.md",
+        "link": "https://github.com/pedronauck/docz/edit/master/src/docs/main.md",
+        "slug": "src-docs-main",
         "menu": "",
         "headings": [
           {
@@ -193,15 +187,15 @@
       }
     },
     {
-      "key": "docs/queries.md",
+      "key": "src/docs/queries.md",
       "value": {
-        "route": "/queries",
+        "route": "/docs/queries",
         "title": "queries",
-        "id": "6b87a8bddbbee415cb1914177d96faca",
-        "filepath": "docs/queries.md",
-        "fullpath": "/Users/morse/Documents/GitHub/mongoke/docs/queries.md",
-        "link": "https://github.com/pedronauck/docz/edit/master/docs/queries.md",
-        "slug": "docs-queries",
+        "id": "e983c0f535eeab180140a673c6607b0b",
+        "filepath": "src/docs/queries.md",
+        "fullpath": "/Users/morse/Documents/GitHub/mongoke/src/docs/queries.md",
+        "link": "https://github.com/pedronauck/docz/edit/master/src/docs/queries.md",
+        "slug": "src-docs-queries",
         "name": "Queries",
         "menu": "",
         "headings": [
@@ -214,15 +208,15 @@
       }
     },
     {
-      "key": "docs/relations.md",
+      "key": "src/docs/relations.md",
       "value": {
-        "route": "/relations",
+        "route": "/docs/relations",
         "name": "Relations",
-        "id": "adf154200a2fc4126b53e6fd4b01ab94",
-        "filepath": "docs/relations.md",
-        "fullpath": "/Users/morse/Documents/GitHub/mongoke/docs/relations.md",
-        "link": "https://github.com/pedronauck/docz/edit/master/docs/relations.md",
-        "slug": "docs-relations",
+        "id": "c845774f1313d4b20aeff8a8724f8704",
+        "filepath": "src/docs/relations.md",
+        "fullpath": "/Users/morse/Documents/GitHub/mongoke/src/docs/relations.md",
+        "link": "https://github.com/pedronauck/docz/edit/master/src/docs/relations.md",
+        "slug": "src-docs-relations",
         "menu": "",
         "headings": [
           {

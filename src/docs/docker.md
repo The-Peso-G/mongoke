@@ -1,5 +1,5 @@
 ---
-route: /docker
+route: /docs/docker
 name:  Docker
 ---
 
