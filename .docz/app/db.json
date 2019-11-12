@@ -179,9 +179,29 @@
         "menu": "",
         "headings": [
           {
-            "slug": "mongoke-documentation",
+            "slug": "introduction",
             "depth": 1,
-            "value": "Mongoke documentation"
+            "value": "Introduction"
+          },
+          {
+            "slug": "using-docker-compose",
+            "depth": 1,
+            "value": "Using Docker Compose"
+          },
+          {
+            "slug": "1-write-the-configuration-to-describe-the-database-schema-and-relations",
+            "depth": 3,
+            "value": "1. Write the configuration to describe the database schema and relations"
+          },
+          {
+            "slug": "2-run-the-mongoke-image-with-the-above-configuration",
+            "depth": 3,
+            "value": "2. Run the  mongoke  image with the above configuration"
+          },
+          {
+            "slug": "3-query-the-generated-service-via-graphql-or-go-to-httplocalhost4000graphiql-to-open-graphiql",
+            "depth": 3,
+            "value": "3. Query the generated service via graphql or go to  http://localhost:4000/graphiql  to open graphiql"
           }
         ]
       }
