@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: 'mongoke',
   plugins: [
     'gatsby-theme-docz',
     `gatsby-transformer-sharp`,

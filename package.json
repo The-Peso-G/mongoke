@@ -19,7 +19,7 @@
     "dev": "gatsby develop",
     "build": "gatsby build",
     "serve": "gatsby serve",
-    "deploy": "npm run build && node ./scripts/deploy-github"
+    "deploy": "npm run build  --prefix-paths && node ./scripts/deploy-github"
 
   },
   "dependencies": {

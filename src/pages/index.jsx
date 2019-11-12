@@ -14,6 +14,7 @@ import React from 'react'
 import { render } from 'react-dom'
 import { H1, Image, Text, Box } from 'hybrid-components'
 import { Archive, Airplay, Aperture } from 'styled-icons/feather'
+import mongokeLogo from './mongoke.svg'
 
 const codeStr = `
 cosa:
@@ -32,7 +33,7 @@ const App = () => {
     return (
         <Provider color='rgb(15,52,74)' bg='#eee' gradients={['#ffeae8', '#f1efff',]}>
             <Hero>
-                <Logo width={['100%', null, '800px']} src={require('./mongoke.svg')} />
+                <Logo width={['100%', null, '800px']} src={mongokeLogo} />
                 <Head fontSize='60px'>Mongoke</Head>
                 <SubHead>instant Graphql on MongoDb</SubHead>
                 <Button>Get Started</Button>
