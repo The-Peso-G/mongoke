@@ -4,3 +4,4 @@ public
 
 # dependencies
 node_modules
+__pycache__
