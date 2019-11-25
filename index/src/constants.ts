@@ -1,5 +1,5 @@
 
-export const DOCS_LINK = '/docs'
+export const DOCS_LINK = '/docs/'
 export const TWITTER_LINK = '/'
 export const GITHUB_LINK = 'https://github.com/remorses/mongoke'
 
