@@ -1,4 +1,5 @@
 {
+    "version": 2,
     "builds": [
         { "src": "index/package.json", "use": "@now/static-build" },
         { "src": "docs/package.json", "use": "@now/static-build" }
