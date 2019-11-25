@@ -71,7 +71,7 @@ const App = () => {
                     />
                     <ArrowRight width='60px' opacity={.3}/>
                     <Code
-                        light
+                        // light
                         language='yaml'
                         code={codeGraphql}
                     />
