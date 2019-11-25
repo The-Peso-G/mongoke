@@ -25,8 +25,7 @@ const App = () => {
     return (
         <Provider
             color='rgb(15,52,74)'
-            bg='#eee'
-            gradients={['#FFF', '#f1efff']}
+            bg='#fff'
         >
             <NavBar color='white'>
                 <a href={DOCS_LINK}>Docs</a>
