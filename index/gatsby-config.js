@@ -1,8 +1,7 @@
 module.exports = {
-  pathPrefix: '/mongoke',
+  pathPrefix: '/',
   plugins: [
     'gatsby-plugin-typescript',
-    'gatsby-theme-docz',
     `gatsby-transformer-sharp`,
     'gatsby-plugin-styled-components',
     // this (optional) plugin enables Progressive Web App + Offline functionality

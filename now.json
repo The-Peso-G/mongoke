@@ -1,0 +1,20 @@
+{
+    "builds": [
+        { "src": "index/package.json", "use": "@now/static-build" },
+        { "src": "docs/package.json", "use": "@now/static-build" }
+    ],
+    "routes": [
+        {
+            "src": "/docs^",
+            "dest": "/docs/"
+        },
+        {
+            "src": "/docs/(.*)",
+            "dest": "/docs/$1"
+        },
+        {
+            "src": "/(.*)",
+            "dest": "/index/$1"
+        }
+    ]
+}
