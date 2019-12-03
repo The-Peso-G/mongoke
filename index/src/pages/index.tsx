@@ -24,7 +24,7 @@ import { DOCS_LINK, GITHUB_LINK, codeStr, codeGraphql, codeSchema, codeTypes, co
 const App = () => {
     return (
         <Provider
-            color='rgb(15,52,74)'
+            // color='rgb(15,52,74)'
             bg='#fff'
         >
             <NavBar color='white'>

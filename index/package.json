@@ -16,7 +16,7 @@
     "url": "https://github.com/pedronauck/docz.git"
   },
   "scripts": {
-    "dev": "gatsby develop --port $PORT",
+    "dev": "test -z $PORT && PORT=8000; gatsby develop --port $PORT",
     "build": "gatsby build",
     "serve": "gatsby serve",
     "deploy": "gatsby build --prefix-paths && node ./scripts/deploy-github"
