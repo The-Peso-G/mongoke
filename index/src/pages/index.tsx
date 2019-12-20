@@ -12,13 +12,14 @@ import {
     SubHead,
     NavBar,
     Footer,
-    Line
+    Line,
 } from 'react-landing-page-components'
+import {GithubButton} from 'react-landing-page-components/dist/FirebaseSignup'
 import React from 'react'
 import { H1, Image, Text, Box, Row } from 'hybrid-components'
 import { Archive, Airplay, Aperture, ArrowRight, FileText, UploadCloud, Database, Lock, List, Activity, Grid, PackageIcon, Shield } from 'styled-icons/feather'
 import {Plug} from 'styled-icons/octicons'
-import { DOCS_LINK, GITHUB_LINK, codeStr, codeGraphql, codeSchema, codeTypes, codeRelations, TWITTER_LINK } from '../constants'
+import { DOCS_LINK, GITHUB_LINK, codeStr, codeGraphql, codeSchema, codeTypes, codeRelations, TWITTER_LINK, firebaseConfig } from '../constants'
 
 
 const App = () => {
@@ -39,6 +40,7 @@ const App = () => {
                 <Head fontSize='60px'>Mongoke</Head>
                 <SubHead>instant Graphql on MongoDb</SubHead>
                 <Button href={DOCS_LINK}>Quick Start</Button>
+                <GithubButton text='Receive Updates' config={firebaseConfig} />
             </Hero>
             <Line/>
             <Section>

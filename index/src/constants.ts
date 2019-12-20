@@ -3,6 +3,17 @@ export const DOCS_LINK = '/docs/'
 export const TWITTER_LINK = '/'
 export const GITHUB_LINK = 'https://github.com/remorses/mongoke'
 
+export const firebaseConfig = {
+    apiKey: "AIzaSyDViEj6ifR5-0R1nJJW1u-bAAMC_gJuCB0",
+    authDomain: "mongoke-d755b.firebaseapp.com",
+    databaseURL: "https://mongoke-d755b.firebaseio.com",
+    projectId: "mongoke-d755b",
+    storageBucket: "mongoke-d755b.appspot.com",
+    messagingSenderId: "972256635701",
+    appId: "1:972256635701:web:ea63d0f645b0e45e6dba7c",
+    measurementId: "G-25Q2DDSSB2"
+}
+
 export const codeStr = `
 schema: |
     type User {
