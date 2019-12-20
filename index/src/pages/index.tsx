@@ -20,7 +20,7 @@ import { H1, Image, Text, Box, Row } from 'hybrid-components'
 import { Archive, Airplay, Aperture, ArrowRight, FileText, UploadCloud, Database, Lock, List, Activity, Grid, PackageIcon, Shield } from 'styled-icons/feather'
 import {Plug} from 'styled-icons/octicons'
 import { DOCS_LINK, GITHUB_LINK, codeStr, codeGraphql, codeSchema, codeTypes, codeRelations, TWITTER_LINK, firebaseConfig } from '../constants'
-
+import 'firebase/auth'
 
 const App = () => {
     return (
