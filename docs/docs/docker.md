@@ -12,6 +12,7 @@ The accepted evn vars are:
 - **GRAPHIQL_DEFAULT_QUERY_FILE_PATH** the query showed in the graphiql panel, loaded inside a file
 - **GRAPHIQL_DEFAULT_JWT** the default jwt used in graphiql headers panel
 - **MONGOKE_BASE_PATH** the path where to serve the graphql, useful for graphiql and reverse proxying
+- **MONGOKE_CONFIG_URL** the url to a configuration file, useful if you can't mount a file inside the container
 
 ## Compose
 The docker image is hosted on docker hub and has name `mongoke/mongoke`, every time the container is started the python code is generated based on the configuration given at path `/conf.yml`.
